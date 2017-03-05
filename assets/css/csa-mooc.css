@@ -269,8 +269,12 @@ aside h1:before {
     font-weight: normal;
     }
 
-/* TODO FIXME: Missing Newlines in quiznator */
-.peer-review__body {
+/*
+  TODO FIXME: Missing Newlines in quiznator
+  https://github.com/rage/quiznator/blob/master/client/plugin/components/quiz/peer-review-quiz/_index.scss
+*/
+
+.quiznator-peer-review-container .quiznator-peer-review .quiznator-peer-review__body div {
     white-space: pre-wrap !important;
     word-break: keep-all  !important;
 }
