@@ -271,6 +271,6 @@ aside h1:before {
 
 /* TODO FIXME: Missing Newlines in quiznator */
 .peer-review__body {
-    white-space: pre-wrap;
-    word-break: keep-all;
+    white-space: pre-wrap !important;
+    word-break: keep-all  !important;
 }
