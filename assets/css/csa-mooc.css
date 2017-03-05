@@ -274,7 +274,8 @@ aside h1:before {
   https://github.com/rage/quiznator/blob/master/client/plugin/components/quiz/peer-review-quiz/_index.scss
 */
 
-.quiznator-peer-review-container .quiznator-peer-review .quiznator-peer-review__body div {
-    white-space: pre-wrap !important;
-    word-break: keep-all  !important;
+div.quiznator-peer-review-wrapper .quiznator-peer-review-container div.quiznator-peer-review > div.quiznator-peer-review__body {
+  white-space: pre-wrap !important;
+  word-break: keep-all  !important;
+  margin-bottom:1.25rem;
 }
